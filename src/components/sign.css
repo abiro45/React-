@@ -1,0 +1,104 @@
+body {
+  background-image: url('../assets/image4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure the background covers the full height */
+  width: 100%; /* Ensure the background covers the full width */
+}
+
+.signup-container a {
+  color: rgb(255, 255, 255);
+}
+
+.button1-container {
+  padding-bottom: 200px;
+}
+
+.admin-login {
+  margin-top: -30px; 
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+ 
+  
+  
+}
+
+.signup-form-box {
+  background-color: #ffffff7d; 
+  padding: 40px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 400px; 
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #050f19;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #030c15;
+}
+
+.login-link {
+  color: black;
+  text-decoration: none; /* Remove underline */
+}
+
+.login-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.login-redirect {
+  color: black;
+  text-align: center; /* Center the text */
+  margin-top: 20px; /* Add some space above */
+}
+a.login-link{
+  color: black;
+}

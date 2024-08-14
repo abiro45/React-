@@ -1,0 +1,40 @@
+.section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .section-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .section-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  

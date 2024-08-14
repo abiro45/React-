@@ -1,0 +1,143 @@
+
+.dash-container {
+  background-image: url('../assets/image10.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: rgb(54, 52, 52); 
+  overflow: visible; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 45px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: rgb(54, 52, 52);
+  overflow: visible;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 45px;
+  margin-top: 15px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 14px 20px;
+  position: relative; 
+}
+
+.nav-links li a {
+  color: white; 
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-image {
+  width: 50px;
+  height: 50px; 
+  border-radius: 10px;
+}
+
+.nav-links .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-links .dropbtn {
+  color: white; 
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.nav-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0a0808;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; 
+  left: 0;
+}
+
+.nav-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-links .dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-links .dropdown-content a:hover {
+  background-color: #575757;
+}
+
+.nav-links .dropdown .sub-dropdown {
+  position: relative;
+}
+
+.nav-links .dropdown .sub-dropdown-content {
+  display: none;
+  position: absolute;
+  left: 100%; /* Position to the right of the main dropdown */
+  top: 0;
+  background-color: #0c0909;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-links .dropdown .sub-dropdown:hover .sub-dropdown-content {
+  display: block;
+}
+
+.nav-links .sub-dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-links .sub-dropdown-content a:hover {
+  background-color: #575757;
+}
+.municipal-main-content {
+  flex: 2;
+  padding: 20px;
+  color: rgb(0, 0, 0); /* Ensures text is readable against the darker background */
+}
+.municipal-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.municipal-stats .municipal-stat {
+  margin: 20px 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%; /* Full width */
+  max-width: 300px; /* Smaller size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for better visibility */
+  backdrop-filter: blur(10px); /* Optional: Adds a blur effect to the background */
+}
+

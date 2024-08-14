@@ -1,0 +1,179 @@
+/* Dash.css */
+
+.mainContainer {
+  background-image: url('../src/assets/image4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 64px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultContainer,
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.inputBox {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+.signupContainer {
+  display: flex;
+  color: rgb(17, 16, 15);
+  align-items: center;
+  gap: 5px;
+  font-style: normal;
+}
+
+.signupContainer a {
+  color: white;
+}
+
+.button1Container {
+  padding-bottom: 200px;
+}
+
+.adminlogin {
+  margin-top: -30px; 
+}
+
+.container {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(224, 210, 210);
+  padding: 20px;
+}
+
+.form-box {
+  background-color: #ffffff; 
+  padding: 40px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 400px; 
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #050f19;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #030c15;
+}
+
+.extraLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.extraLinks .link {
+  color: #050f19;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.extraLinks .link:hover {
+  text-decoration: underline;
+}

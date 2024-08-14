@@ -1,0 +1,76 @@
+.admin-dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 1400px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2000px;
+    
+  }
+  
+  .complaint-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .complaint-box h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .complaint-item-container {  /* New container class */
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .complaint-item-container:hover {  /* Hover effect for container */
+    transform: translateY(-3px);
+  }
+  
+  .complaint-item {
+    padding: 10px 15px;
+  }
+  
+  .complaint-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .complaint-item strong {
+    color: #333;
+  }
+  .go-home-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .go-home-button:hover {
+    background-color: #45a049;
+  }

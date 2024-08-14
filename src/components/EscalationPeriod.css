@@ -1,0 +1,55 @@
+
+.escalation-period-wrapper {
+  padding: 20px;
+  background-color: #a38b8b; 
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin-top: 1900px; 
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1900px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.problems-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 4000px;
+}
+
+.problem-item {
+  background-color: #fff;
+  padding: 20px; /* Increase padding inside the problem item */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.problem-item h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.problem-item p {
+  font-size: 16px;
+  color: #555;
+}

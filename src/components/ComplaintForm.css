@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: linear-gradient(white);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+  }
+  
+  .complaint-container {
+    background: rgba(226, 221, 221, 0.8);
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 950px;
+  }
+  
+  .complaint-us-h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .complaint-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .complaint-form-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .complaint-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .complaint-form-group input,
+  .complaint-form-group select,
+  .complaint-form-group textarea,
+  .complaint-form-group button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s;
+  }
+  
+  .complaint-form-group input:focus,
+  .complaint-form-group textarea:focus,
+  .complaint-form-group button:focus {
+    border-color: #e7e4ea;
+    box-shadow: 0 0 5px rgba(222, 220, 225, 0.5);
+  }
+  
+  .complaint-form-group textarea {
+    resize: vertical;
+  }
+  
+  .complaint-form-group button {
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .complaint-form-group button:hover {
+    background-color: #2575fc;
+  }
+  
+  .complaint-form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .complaint-form-group label[for="termsAgreed"] {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    color: #333;
+  }
+  

@@ -1,0 +1,84 @@
+.confirmation-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative; /* Ensure the container is relatively positioned */
+    text-align: center; /* Center-align the contents, including the button */
+    background: linear-gradient(135deg, #f0f0f0, #ffffff); /* Linear gradient background */
+    border-radius: 10px; 
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(135deg, #f0f0f0, #ffffff);
+    border-radius: 10px;
+    margin-top: 200px;/* Optional: Add rounded corners */
+}
+
+.confirmation-page .go-back-button {
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: inline-block; /* Ensure proper alignment */
+    text-decoration: none; /* Remove underline from links if the button is an anchor tag */
+    font-size: 16px; /* Font size */
+    margin-bottom: 20px; /* Margin at the bottom to create space between button and other content */
+}
+
+.confirmation-page .go-back-button:hover {
+    background-color: #45a049; /* Darken the background color on hover */
+}
+
+.confirmation-page h1,
+.confirmation-page h2 {
+    margin-bottom: 15px;
+}
+
+.confirmation-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.confirmation-page table, .confirmation-page th, .confirmation-page td {
+    border: 1px solid #0a0707;
+}
+
+.confirmation-page th, .confirmation-page td {
+    padding: 8px;
+    text-align: left;
+}
+
+.confirmation-page p {
+    margin-bottom: 10px;
+}
+
+.confirmation-page img {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.confirmation-button {
+    text-align: center; /* Center the button within this div */
+}
+
+.confirmation-button button {
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: inline-block; /* Ensure proper alignment */
+    text-decoration: none; /* Remove underline from links if the button is an anchor tag */
+    font-size: 16px; /* Font size */
+    border-radius: 14px;
+}
+
+.confirmation-button button:hover {
+    background-color: #45a049; /* Darken the background color on hover */
+}

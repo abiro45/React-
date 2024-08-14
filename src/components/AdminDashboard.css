@@ -1,0 +1,104 @@
+.admin-dashboard {
+    display: flex;
+    height: 100vh; /* Make the dashboard full height */
+    overflow: hidden; /* Prevent horizontal overflow */
+    
+  }
+  
+  .sidebar {
+    height: 100vh; /* Full height for the sidebar */
+    width: 250px; /* Width of the sidebar when open */
+    background: #bdc2c8; /* Sidebar background color */
+    color: white; /* Text color */
+    transition: width 0.3s ease; /* Smooth transition for width */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 0 10px 10px 0; /* Rounded corners on right side */
+    position: fixed; /* Fix to the left side */
+    left: 0; /* Position on the left */
+    top: 0; /* Start at the top */
+    z-index: 1000; /* Ensure it is above other elements */
+  }
+  
+  .sidebar.closed {
+    width: 0; /* Width of the sidebar when closed */
+  }
+  
+  .sidebar .close-btn {
+    background: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: white; /* Text color */
+    font-size: 24px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    padding: 10px; /* Padding around the button */
+    text-align: center; /* Align button to the right */
+  }
+  
+  .sidebar h2 {
+    margin: 0; /* Remove margin */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center the header text */
+    border-bottom: 1px solid #34495e; /* Bottom border */
+  }
+  
+  .sidebar ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .sidebar ul li {
+    padding: 15px 20px; /* Padding around list items */
+  }
+  
+  .sidebar ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .content {
+    flex-grow: 1; /* Allow content to grow and fill remaining space */
+    padding: 20px; /* Padding around content */
+    margin-left: 250px; /* Space for the sidebar when open */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    transition: margin-left 0.3s ease; /* Smooth transition for margin */
+  }
+  
+  .content.shifted {
+    margin-left: 0; /* No space for the sidebar when closed */
+  }
+  
+  .hamburger-menu {
+    position: fixed; /* Fix position */
+    top: 20px; /* Position from the top */
+    left: 20px; /* Position from the left */
+    cursor: pointer; /* Pointer cursor */
+    padding: 10px; /* Padding around the icon */
+    border: 1px solid #ccc; /* Border around the icon */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f8f9fa; /* Background color */
+    z-index: 1000; /* Ensure it is above other elements */
+  }
+  
+  .hamburger-menu .bar {
+    width: 25px; /* Width of the bars */
+    height: 3px; /* Height of the bars */
+    background-color: #333; /* Color of the bars */
+    margin: 4px 0; /* Space between bars */
+    transition: all 0.3s ease; /* Smooth transition for bars */
+  }
+  
+  /* New styles for profile and stats boxes */
+  .admin-profile-box,
+  .admin-stats-box {
+    background-color: #fbf1f1; /* Background color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(188, 161, 161, 0.1); /* Box shadow */
+    padding: 30px; /* Padding inside boxes */
+    margin: 20px 0; /* Space between boxes */
+  }
+  
+  .admin-profile-box h2,
+  .admin-stats-box h2 {
+    margin-bottom: 15px; /* Margin below the headers */
+  }
+  
